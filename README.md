@@ -13,3 +13,4 @@ A text-based program to create characters for use in creative writing.
 
 ## Problems
 That I don't know a lot of Python yet. Work in progress.
+I struggled with remembering what could be done with git, so I switched to figuring out version control in VSCode.
