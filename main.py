@@ -1,4 +1,3 @@
-# Limited by what I know in python currently, but I will expand on this in the future to include more features and options for character creation and management.
 while True: # Loop to ensure valid menu selection.
     selection = input("Select an option: ")
     if selection == "1":
