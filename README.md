@@ -10,3 +10,6 @@ A text-based program to create characters for use in creative writing.
 - Goals
 - Personality Traits
 - Backstory
+
+## Problems
+That I don't know a lot of Python yet. Work in progress.
