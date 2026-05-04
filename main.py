@@ -1,12 +1,3 @@
-print("=" * 25)
-print("Character Creation System")
-print("=" * 25)
-print("-" * 9)
-print("Main Menu")
-print("-" * 9)
-print("1. Create New Character")
-print("2. Load Existing Character")
-print("3. Exit")
 # Limited by what I know in python currently, but I will expand on this in the future to include more features and options for character creation and management.
 while True: # Loop to ensure valid menu selection.
     selection = input("Select an option: ")
