@@ -1,4 +1,3 @@
-# Comment to show a change checking status with git status.
 print("=" * 25)
 print("Character Creation System")
 print("=" * 25)
