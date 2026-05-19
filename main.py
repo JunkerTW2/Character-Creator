@@ -1,20 +1,18 @@
 print("=" * 25)
 print("Character Creation System")
 print("=" * 25)
-print("-" * 9)
-print("Main Menu")
-print("-" * 9)
+
 while True: # Loop to ensure valid menu selection.
-    print("1. Create New Character")
-    print("2. Load Existing Character")
-    print("3. Exit")
+    print("[1] Create New Character")
+    print("[2] Load Existing Character")
+    print("[3] Exit")
     selection = input("Select an option: ")
     if selection == "1":
         print("Creating a new character")
         name = input("Enter character name: ")
-        print("1. Warrior")
-        print("2. Mage")
-        print("3. Rogue")
+        print("[1] Warrior")
+        print("[2] Mage")
+        print("[3] Rogue")
         while True: # Loop to ensure valid class selection.
             character_class = input("Select character class: ")
             if character_class in ["1", "2", "3"]:
@@ -32,12 +30,12 @@ while True: # Loop to ensure valid menu selection.
             print("Invalid class selection.")
         while True: # Loop to ensure valid menu selection.
             print(f"{name}'s Character Profile")
-            print("1. Strengths")
-            print("2. Weaknesses")
-            print("3. Motivations")
-            print("4. Goals")
-            print("5. Personality Traits")
-            print("6. Backstory")
+            print("[1] Strengths")
+            print("[2] Weaknesses")
+            print("[3] Motivations")
+            print("[4] Goals")
+            print("[5] Personality Traits")
+            print("[6] Backstory")
             selection = input("Select an option: ")
             if selection in ["1", "2", "3", "4", "5", "6"]:
                 break
