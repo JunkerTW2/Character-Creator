@@ -1,9 +1,7 @@
 print("=" * 25)
 print("Character Creation System")
 print("=" * 25)
-print("-" * 9)
-print("Main Menu")
-print("-" * 9)
+
 while True: # Loop to ensure valid menu selection.
     print("[1] Create New Character")
     print("[2] Load Existing Character")
